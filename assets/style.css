@@ -93,3 +93,27 @@ footer {
     width: 100%;
     height: 2rem;
 }
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 560px) {
+    
+    body {
+        background: url('img/bg-mobile.webp.pink.jpg'), no-repeat cover;
+    }
+
+    .cartao {
+        flex: 1 0 calc(100% - 1rem)
+    }
+
+    .cartao__conteudo h3 {
+        font-size: 3vw;
+    }
+
+    .cartao__conteudo p {
+        font-size: 3.8vw;
+    }
+}
